@@ -1,0 +1,51 @@
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+.input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.btn {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.start {
+    background-color: #4CAF50;
+    color: white;
+}
+.stop {
+    background-color: #f44336;
+    color: white;
+}
+.file-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+.file-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.new-file {
+    color: red;
+    font-weight: bold;
+}
+.file-content {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
